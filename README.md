@@ -27,7 +27,26 @@ I would love to have some contributions, So if you would like to contribute to I
 
 ## Examples
 
-Here is an example of an image before and after dithering:  ![Original Image](examples/lena.png)  ![Dithered Image (16 colors)](examples/lena_16.png)  ![Dithered Image (8 colors)](examples/lena_8.png)
+Here is an example of an image before and after dithering:
+1. Original image:
+
+![Original Image](input.jpg)  
+
+2. Threshold algorithm image
+
+![Threshold algorithm output image](output_threshold.jpg)
+
+3. Error Diffusion algorithm 
+
+![Error diffusion algorithm output image](output_floyd.jpg)
+
+4. Ordered Dithering algorithm 
+
+![Ordered algorithm output image](output_ordered.jpg)
+
+5. Pattern Dithering algorithm (with 4 shades of gray)
+
+![Pattern algorithm output image](output_pattern_4shades.jpg)
 
 ## License
 This code is licensed under the MIT License. See the LICENSE file for details. 
